@@ -7,8 +7,8 @@ Requirement:
 XAMPP
 
 Instructions:
-1. ProyekUASPW2 is put in htdocs folder in XAMPP
-2. e_commerce_artist xampp.sql is put in phpMyAdmin MySQL (in XAMPP) with 'e_commerce_artist' as the database name
+1. The folder ProyekUASPW2 is put in htdocs folder in XAMPP
+2. The file e_commerce_artist.sql should be imported into your SQL database (via XAMPP) to create a database named e_commerce_artist
 
 URL User Access:
 http://localhost/ProyekUASPW2/
