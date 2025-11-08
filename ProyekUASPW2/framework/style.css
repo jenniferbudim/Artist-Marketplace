@@ -1,0 +1,541 @@
+.dark {
+    background-color: rgb(4, 45, 45);
+}
+
+.light {
+    background-color: rgb(162, 195, 177) !important;
+}
+
+.medium {
+    background-color: rgb(110, 160, 133);
+}
+
+.text-medium {
+    color: rgb(110, 160, 133);
+}
+
+.accent {
+    background-color: palevioletred !important;
+}
+
+.accent-hover {
+    background-color: palevioletred !important;
+    font-family: Poppins, sans-serif;
+    color: white !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accent-hover:hover {
+    background-color: rgb(110, 160, 133) !important;
+    color: white !important;
+}
+
+.dark-hover {
+    background-color: rgb(4, 45, 45) !important;
+    font-family: Poppins, sans-serif;
+    color: white !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-hover:hover {
+    background-color: rgb(110, 160, 133) !important;
+    color: white !important;
+}
+
+.text-dark {
+    color: rgb(4, 45, 45) !important;
+}
+
+.navbar .nav-link {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: palevioletred !important;
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-brand:hover {
+    color: palevioletred !important;
+}
+
+.navbar .nav-link.active-nav {
+    color: rgb(4, 45, 45) !important;
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+.dropdown-menu {
+    background-color: rgb(162, 195, 177);
+    border: none;
+}
+
+.dropdown-menu .dropdown-item {
+    color: rgb(4, 45, 45);
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: palevioletred;
+    color: rgb(4, 45, 45);
+}
+
+.modal-light {
+    background-color: rgb(162, 195, 177);
+    color: rgb(4, 45, 45);
+}
+
+.button-text-color {
+    color: rgb(4, 45, 45);
+}
+
+.registerbtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.input-custom {
+    background-color: rgb(208, 228, 217);
+}
+
+input.form-control.input-custom {
+    background-color: rgb(208, 228, 217);
+}
+
+/* Default (Desktop and above) */
+body {
+    .navbar-brand {
+        font-size: 25px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    .btn-sm {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+}
+
+/* Medium Devices (Tablets, 768px to 992px) */
+@media (max-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .table {
+        font-size: 15px;
+    }
+}
+
+/* Small Devices (Phones, 576px to 768px) */
+@media (max-width: 576px) {
+    body {
+        font-size: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 18px !important;
+    }
+
+    .btn-hover {
+        font-size: 0.8125rem;
+        /* 13px */
+        padding: 0.5rem 0.875rem;
+    }
+
+    .accent-hover {
+        font-size: 0.8125rem;
+        /* 13px */
+        padding: 0.5rem 0.875rem;
+    }
+
+    .btn-hover.btn-lg {
+        font-size: 0.875rem;
+        /* 14px */
+        padding: 0.6rem 1rem;
+    }
+
+    .hello {
+        font-size: 13px;
+    }
+
+    .hello2 {
+        font-size: 16px;
+    }
+
+    .table {
+        font-size: 10px;
+    }
+
+    .profile-image {
+        display: none;
+    }
+
+    .btn-sm {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+
+    #itemsTable td {
+        padding: 0.5rem !important;
+        border-top: none;
+    }
+
+    #itemsTable td>div.fw-bold {
+        color: #333;
+    }
+
+    #itemsTable input,
+    #itemsTable select {
+        margin-top: 0.25rem;
+    }
+}
+
+/* Extra Small Devices (Phones under 321px wide) */
+@media (max-width: 320px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .btn-hover {
+        font-size: 0.75rem;
+        /* 12px */
+        padding: 0.45rem 0.75rem;
+    }
+
+    .btn-hover.btn-lg {
+        font-size: 0.8125rem;
+        /* 13px */
+        padding: 0.5rem 0.875rem;
+    }
+
+    .table {
+        font-size: 8px;
+    }
+
+    .profile-image {
+        display: none;
+    }
+
+    .btn-sm {
+        padding: 2px 6px;
+        font-size: 11px;
+    }
+}
+
+.btn-hover {
+    background-color: rgb(110, 160, 133);
+    font-family: Poppins;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-hover:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.font {
+    font-family: Poppins;
+}
+
+.card-body {
+    background-color: rgb(162, 195, 177);
+    color: #333;
+}
+
+.background1 {
+    height: 100vh;
+    height: auto;
+    background: linear-gradient(rgb(162, 195, 177) 0%,
+            rgb(162, 195, 177) 80%,
+            white 80%,
+            white 100%);
+}
+
+.background2 {
+    min-height: 100vh;
+    height: auto;
+    background: linear-gradient(rgb(4, 45, 45) 0%,
+            rgb(4, 45, 45) 30%,
+            white 30%,
+            white 80%,
+            rgb(4, 45, 45) 80%,
+            rgb(4, 45, 45) 100%);
+}
+
+.background3 {
+    height: auto;
+    background: linear-gradient(rgb(4, 45, 45) 0%,
+            rgb(4, 45, 45) 20%,
+            white 20%,
+            white 100%);
+}
+
+.background4 {
+    height: 100vh;
+    height: auto;
+    background: linear-gradient(rgb(110, 160, 133) 0%,
+            rgb(110, 160, 133) 30%,
+            white 30%,
+            white 100%);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-md-6,
+.col-md-4,
+.col-auto {
+    padding: 0;
+}
+
+.div {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    box-sizing: border-box;
+    border: 1px;
+    border-radius: 3px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    font-family: Poppins;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: rgb(110, 160, 133);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: palevioletred;
+}
+
+.signin {
+    text-align: center;
+}
+
+.containershop {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+aside,
+main {
+    border: 1px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .containershop {
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        order: 2;
+    }
+
+    main {
+        order: 1;
+    }
+}
+
+.add-btn,
+.subtract-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover,
+.subtract-btn:hover {
+    background-color: #45a049;
+}
+
+.subtract-btn {
+    background-color: #f44336;
+}
+
+.subtract-btn:hover {
+    background-color: #d32f2f;
+}
+
+div.quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+span.quantity-text {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+#pay-button {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#pay-button:hover {
+    background-color: #45a049;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.item__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(216, 112, 147, 0.85);
+    transform: translateY(100%);
+    transition: transform 300ms ease-in-out;
+}
+
+.image-container:hover .item__overlay {
+    transform: translate3d(0, 0, 0);
+}
+
+.item__body {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out 100ms;
+}
+
+.image-container:hover .item__body {
+    opacity: 1;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-image {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 3s ease;
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+}
